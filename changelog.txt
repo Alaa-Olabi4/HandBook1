@@ -1,0 +1,79 @@
+v 1.2.0
+
+*********** Add Expiration to lock the content ***********
+
+
+// script.js :
+// ========================
+// Persistent Expiration Check
+// ========================
+const EXPIRATION_KEY = 'app_expiration';
+const expirationDate = new Date('2025-12-31T23:59:59');
+
+// Check if we've previously recorded expiration
+if (localStorage.getItem(EXPIRATION_KEY)) {
+    showExpiration();
+    throw new Error("Application expired");
+}
+
+// Check current date
+const currentDate = new Date();
+if (currentDate > expirationDate) {
+    // Set persistent flag
+    localStorage.setItem(EXPIRATION_KEY, 'true');
+    
+    // Clear other data
+    const preserveKeys = [EXPIRATION_KEY];
+    Object.keys(localStorage).forEach(key => {
+        if (!preserveKeys.includes(key)) {
+            localStorage.removeItem(key);
+        }
+    });
+    
+    showExpiration();
+    throw new Error("Application expired");
+}
+
+function showExpiration() {
+    document.body.innerHTML = `
+        <div style="display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center; padding: 20px; flex-direction: column; background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); font-family: 'Poppins', sans-serif; color: white;">
+            <div class="logo" style="margin-bottom: 30px;">
+                <i class="fas fa-blog" style="font-size: 50px; margin-bottom: 15px;"></i>
+                <div style="font-size: 24px; font-weight: 700;color: #ffcc00;">Hand<span style="color: #ffcc00;">Book</span></div>
+            </div>
+            <h1 style="font-size: 28px; margin-bottom: 20px; font-weight: 600;">Content Expired</h1>
+            <p style="font-size: 18px; margin-bottom: 30px; max-width: 500px; line-height: 1.6;">
+                This application's content has expired .
+            </p>
+            <p style="font-size: 16px; opacity: 0.9;">
+                Please contact support for more information.
+            </p>
+        </div>
+    `;
+}
+
+
+v 1.3.5
+*********** Add new categories (Bundles , ADSL , Cash Mobile) and pin the eSIM in Featured Articles ***********
+1. create new folder in articles for new category
+2. create index.js for each cartegory
+3. update articles.js
+4. update functions loadAllContent() , updateArticleCounts() in script.js
+5. update index.html 
+
+
+
+v 1.4.0
+*********** first version live (exipred on 1/8/2025) ***********
+
+v 1.4.6
+*********** Adding some Enhancement and fixing bugs   ***********
+
+
+
+
+v 2.0.1
+*********** New Class 10.8.2025 ***********
+1. update expiry date in script.js to be : 31.08.2025 23:59:59
+2. change the icon
+3. correct the postpaid line price in line reservation and post subscription 

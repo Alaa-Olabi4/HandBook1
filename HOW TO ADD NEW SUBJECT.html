@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>دليل إضافة موضوع جديد</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+      margin: 0;
+      padding: 2rem;
+      direction: rtl;
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    h1 {
+      color: #00678f;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #ffcc00;
+      padding-bottom: 0.5rem;
+    }
+    ol {
+      padding-right: 1.5rem;
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+    code {
+      background: #eee;
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-family: 'Courier New', monospace;
+    }
+    li {
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>طريقة إضافة موضوع جديد</h1>
+    <ol>
+      <li>يتم إنشاء ملف JavaScript (لاحقته <code>.js</code>) باسم الموضوع ضمن التصنيف المطلوب إضافته.</li>
+      <li>يجب عدم وجود مسافات ضمن اسم الملف.</li>
+      <li>يتم تعبئة الحقول كما هو مذكور ضمن الملف <code>template.js</code>.</li>
+      <li>يتم إضافة الموضوع الجديد ضمن ملف <code>index.js</code> الموجود في مجلد التصنيف الذي يتم الإضافة له.</li>
+      <li>بأعلى الملف يتم إضافة:<br/><code>import superclip from './superclip.js';</code></li>
+      <li>ثم ضمن المتغير <code>articles</code> يتم إضافة اسم الملف الجديد.</li>
+    </ol>
+  </div>
+</body>
+</html>

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HandBook</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-book"></i>
+                    <div>Hand<span>Book</span></div>
+                </div>
+                 <div class="header-back-btn" id="headerBackBtn">
+                     <button>
+                         <i class="fas fa-arrow-left"></i> Back
+                     </button>
+                 </div>
+                <div class="header-actions">
+                    <button class="search-btn" id="searchToggle">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="menu-btn" id="menuToggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Search Container -->
+        <div class="search-container" id="searchContainer">
+            <form class="search-form" id="searchForm">
+                <input type="text" class="search-input" id="searchInput"
+                    placeholder="Search articles...">
+                <button type="button" class="close-search" id="closeSearch">
+                    <i class="fas fa-times"></i>
+                </button>
+            </form>
+        </div>
+
+        <!-- Navigation Drawer -->
+        <div class="drawer" id="drawer">
+            <div class="drawer-header">
+                <h3>Hand Book - MTN Training</h3>
+                <p>Welcome On Board</p>
+            </div>
+            <ul class="drawer-menu">
+                <li><a href="#" class="nav-link" data-page="home"><i
+                            class="fas fa-home"></i> Home</a></li>
+                <li><a href="#" class="nav-link" data-page="bookmarks"><i
+                            class="fas fa-bookmark"></i> Bookmarks</a></li>
+                <li><a href="#" class="nav-link" data-page="notes"><i
+                            class="fas fa-sticky-note"></i> My Notes</a></li>
+                <li><a href="#" class="nav-link" data-page="about"><i
+                            class="fas fa-info-circle"></i> About Us</a></li>
+            </ul>
+        </div>
+        <div class="drawer-overlay" id="drawerOverlay"></div>
+
+        <!-- Main Content -->
+        <div class="container">
+            <!-- Home Page -->
+            <div id="homePage" class="page active">
+                <h1 class="page-title">Categories</h1>
+                <div class="categories">
+                    <!-- Prepaid Card -->
+                    <div class="category-card prepaid" data-page="prepaid">
+                        <div class="category-header">
+                            <i class="fas fa-sim-card"></i>
+                            <h3>Prepaid</h3>
+                        </div>
+                        <div class="category-content">
+                            <p>Prepaid Subscription , Cancellation , Tekram and more ...</p>
+                            <span class="articles-count"
+                                id="prepaidCount">Loading...</span>
+                        </div>
+                    </div>
+
+                    <!-- Postpaid Card -->
+                    <div class="category-card postpaid" data-page="postpaid">
+                        <div class="category-header">
+                            <i class="fas fa-credit-card"></i>
+                            <h3>Postpaid</h3>
+                        </div>
+                        <div class="category-content">
+                            <p>Postpaid Subscription , Cancellation , Roaming , and more</p>
+                            <span class="articles-count"
+                                id="postpaidCount">Loading...</span>
+                        </div>
+                    </div>
+
+                    <!-- Services Card -->
+                    <div class="category-card services" data-page="services">
+                        <div class="category-header">
+                            <i class="fas fa-cogs"></i>
+                            <!-- <i class="fas fa-sliders-h"></i> -->
+                            <h3>Services</h3>
+                        </div>
+                        <div class="category-content">
+                            <p>Super Clip , Waiting , Call Forwarding and more services</p>
+                            <span class="articles-count"
+                                id="servicesCount">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h1 class="page-title">Bundles</h1>
+                <div class="categories">
+                    <!-- Prepaid Card -->
+                    <div class="category-card prepaid" data-page="prebundles">
+                        <div class="category-header">
+                            <i class="fas fa-sim-card"></i>
+                            <h3>Prepaid Bundles</h3>
+                        </div>
+                        <div class="category-content">
+                            <p>Cool , 3G over 2G , Foreigner Bundles and more ...</p>
+                            <span class="articles-count"
+                                id="prebundlesCount">Loading...</span>
+                        </div>
+                    </div>
+
+                    <!-- Postpaid Card -->
+                    <div class="category-card postpaid" data-page="postbundles">
+                        <div class="category-header">
+                            <i class="fas fa-credit-card"></i>
+                            <h3>Postpaid Bundles</h3>
+                        </div>
+                        <div class="category-content">
+                            <p>Tariff , 3G over 2G , New Deluxe bundles and more</p>
+                            <span class="articles-count"
+                                id="postbundlesCount">Loading...</span>
+                        </div>
+                    </div>
+
+                    <!-- prepostbundles Card -->
+                    <div class="category-card services" data-page="prepostbundles">
+                        <div class="category-header">
+                            <!-- <i class="fas fa-cogs"></i> -->
+                            <i class="fas fa-sliders-h"></i>
+                            <h3>Pre & Post Bundles</h3>
+                        </div>
+                        <div class="category-content">
+                            <p>SMS , Syndicate & Students & General Info About bundles</p>
+                            <span class="articles-count"
+                                id="prepostbundlesCount">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h1 class="page-title">Featured</h1>
+                <div class="categories">
+                    <!-- ADSL Card -->
+                    <div class="category-card prepaid" data-page="adsl">
+                        <div class="category-header">
+                            <i class="fas fa-sim-card"></i>
+                            <h3>ADSL</h3>
+                        </div>
+                        <div class="category-content">
+                            <p>ADSL (ISP)</p>
+                            <span class="articles-count"
+                                id="adslCount">Loading...</span>
+                        </div>
+                    </div>
+
+                    <!-- Cash Mobile Card -->
+                    <div class="category-card postpaid" data-page="cashmobile">
+                        <div class="category-header">
+                            <i class="fas fa-credit-card"></i>
+                            <h3>Cash Mobile</h3>
+                        </div>
+                        <div class="category-content">
+                            <p>E-Payment Service</p>
+                            <span class="articles-count"
+                                id="cashmobileCount">Loading...</span>
+                        </div>
+                    </div>
+
+                    <div class="articles-list" id="featuredArticles">
+                        
+                    <!-- Featured articles will be loaded dynamically -->
+                    </div>
+                </div>
+
+
+                <!-- <h2 class="page-title">Featured Articles</h2>
+                <div class="articles-list" id="featuredArticles">
+                    Featured articles will be loaded dynamically
+                </div> -->
+            </div>
+
+            <!-- Prepaid Page -->
+            <div id="prepaidPage" class="page">
+                <h1 class="page-title">Prepaid Articles</h1>
+
+                <div class="articles-list" id="prepaidArticles">
+                    <!-- Articles will be loaded dynamically -->
+                </div>
+            </div>
+
+            <!-- Postpaid Page -->
+            <div id="postpaidPage" class="page">
+                <!-- <button class="back-btn" data-page="home">
+                <i class="fas fa-arrow-left"></i> Back
+            </button> -->
+                <h1 class="page-title">Postpaid Articles</h1>
+
+                <div class="articles-list" id="postpaidArticles">
+                    <!-- Articles will be loaded dynamically -->
+                </div>
+            </div>
+
+            <!-- Services Page -->
+            <div id="servicesPage" class="page">
+                <!-- <button class="back-btn" data-page="home">
+                <i class="fas fa-arrow-left"></i> Back
+            </button> -->
+                <h1 class="page-title">Services Articles</h1>
+
+                <div class="articles-list" id="servicesArticles">
+                    <!-- Articles will be loaded dynamically -->
+                </div>
+            </div>
+
+            <!-- prebundles Page -->
+            <div id="prebundlesPage" class="page">
+
+                <h1 class="page-title">prebundles Articles</h1>
+
+                <div class="articles-list" id="prebundlesArticles">
+                    <!-- Articles will be loaded dynamically -->
+                </div>
+            </div>
+
+            <!-- postbundles Page -->
+            <div id="postbundlesPage" class="page">
+
+                <h1 class="page-title">postbundles Articles</h1>
+
+                <div class="articles-list" id="postbundlesArticles">
+                    <!-- Articles will be loaded dynamically -->
+                </div>
+            </div>
+
+            <!-- prepostbundles Page -->
+            <div id="prepostbundlesPage" class="page">
+
+                <h1 class="page-title">prepostbundles Articles</h1>
+
+                <div class="articles-list" id="prepostbundlesArticles">
+                    <!-- Articles will be loaded dynamically -->
+                </div>
+            </div>
+
+            <!-- adsl Page -->
+            <div id="adslPage" class="page">
+
+                <h1 class="page-title">ADSL Articles</h1>
+
+                <div class="articles-list" id="adslArticles">
+                    <!-- Articles will be loaded dynamically -->
+                </div>
+            </div>
+
+            <!-- cashmobile Page -->
+            <div id="cashmobilePage" class="page">
+
+                <h1 class="page-title">Cash Mobile Articles</h1>
+
+                <div class="articles-list" id="cashmobileArticles">
+                    <!-- Articles will be loaded dynamically -->
+                </div>
+            </div>
+
+            <!-- Article Detail Page -->
+            <div id="articlePage" class="page">
+                <div class="article-detail" id="articleDetailContent">
+                    <!-- Content will be loaded dynamically -->
+                </div>
+            </div>
+
+            <!-- Bookmarks Page -->
+            <div id="bookmarksPage" class="page">
+                <!-- <button class="back-btn" data-page="home">
+                <i class="fas fa-arrow-left"></i> Back
+            </button> -->
+                <h1 class="page-title">Your Bookmarks</h1>
+
+                <div class="bookmarks-list" id="bookmarksContent">
+                    <!-- Bookmarks will be loaded dynamically -->
+                </div>
+            </div>
+
+            <!-- Notes Page -->
+            <div id="notesPage" class="page">
+                <!-- <button class="back-btn" data-page="home">
+                <i class="fas fa-arrow-left"></i> Back
+            </button> -->
+                <h1 class="page-title">Your Notes</h1>
+
+                <div class="saved-notes" id="notesContent">
+                    <!-- Notes will be loaded dynamically -->
+                </div>
+            </div>
+
+            <!-- Search Results Page -->
+            <div id="searchPage" class="page">
+                <!-- <button class="back-btn" data-page="home">
+                <i class="fas fa-arrow-left"></i> Back
+            </button> -->
+                <h1 class="page-title">Search Results</h1>
+
+                <div class="articles-list" id="searchResults">
+                    <!-- Search results will be loaded dynamically -->
+                </div>
+            </div>
+
+            <!-- About Page -->
+            <div id="aboutPage" class="page">
+                <!-- <button class="back-btn" data-page="home">
+                <i class="fas fa-arrow-left"></i> Back
+            </button> -->
+
+                <div class="about-section">
+                    <h1 class="about-title">About HandBook</h1>
+
+                    <div class="about-content">
+                        <div>
+                            <img
+                                src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+                                alt="About MobileBlog" class="about-image">
+                        </div>
+                        <div class="about-text">
+                            <p>
+                                Welcome to HandBook which made by UAT & Training Team Hands  
+                            </p>
+                            <p>
+                                for any inquiries don't histate to contact us : 
+                            </p>
+                            <a href="mailto:CCTraining@mtn.com.sy">CCTraining@mtn.com.sy</a>
+                            <!-- <p>Welcome to MobileBlog, your ultimate destination
+                                for all things mobile technology. Founded in
+                                2020, we've been dedicated to providing the most
+                                accurate, up-to-date information about mobile
+                                services, plans, and technologies.</p>
+
+                            <p>Our mission is to empower consumers with
+                                knowledge that helps them make informed
+                                decisions about their mobile services. We
+                                believe that understanding your mobile plan
+                                shouldn't be complicated, and we're here to
+                                simplify it for you.</p>
+
+                            <p>With a team of industry experts and tech
+                                enthusiasts, we cover everything from the latest
+                                prepaid deals to in-depth analyses of postpaid
+                                plans and troubleshooting guides for common
+                                service issues.</p>
+
+                            <p>We're proud to serve over 500,000 monthly readers
+                                and are constantly expanding our content to
+                                cover more topics that matter to mobile
+                                users.</p> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="team-section">
+                    <h2 class="team-title">Our Team</h2>
+
+                    <div class="team-members">
+                        <div class="team-member">
+                            <img
+                                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                                alt="Alex Johnson" class="member-image">
+                            <h3 class="member-name">Alex Johnson</h3>
+                            <div class="member-role">Founder & CEO</div>
+                            <p>10+ years in telecom industry</p>
+                        </div>
+
+                        <div class="team-member">
+                            <img
+                                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                                alt="Sarah Williams" class="member-image">
+                            <h3 class="member-name">Sarah Williams</h3>
+                            <div class="member-role">Content Director</div>
+                            <p>Tech journalist since 2015</p>
+                        </div>
+
+                        <div class="team-member">
+                            <img
+                                src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                                alt="Michael Chen" class="member-image">
+                            <h3 class="member-name">Michael Chen</h3>
+                            <div class="member-role">Lead Developer</div>
+                            <p>Mobile technology specialist</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+        <!-- Footer Navigation -->
+        <div class="app-footer">
+            <button class="footer-btn active" data-page="home">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </button>
+            <button class="footer-btn" data-page="search">
+                <i class="fas fa-search"></i>
+                <span>Search</span>
+            </button>
+            <button class="footer-btn" data-page="bookmarks">
+                <i class="fas fa-bookmark"></i>
+                <span>Bookmarks</span>
+            </button>
+            <button class="footer-btn" data-page="notes">
+                <i class="fas fa-sticky-note"></i>
+                <span>Notes</span>
+            </button>
+        </div>
+
+        <script type="module" src="articles.js"></script>
+        <script type="module" src="script.js"></script>
+    </body>
+</html>
