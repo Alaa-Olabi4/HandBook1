@@ -1,0 +1,67 @@
+export default {
+
+    //add id to the and replace * with the number of subjects
+    // ****** it's important don't igonre it **********
+    id: "services-15",
+
+    title: "Call Screening Post ",
+
+    content: `
+     
+
+	
+	<div class="entry-content clear" itemprop="text">
+
+		
+				<div data-elementor-type="wp-post" data-elementor-id="303" class="elementor elementor-303" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-7da1f712 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7da1f712" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-432fbc33" data-id="432fbc33" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-5484f1ce elementor-widget elementor-widget-text-editor" data-id="5484f1ce" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-text-editor elementor-clearfix">
+				<p style="direction: rtl"></p><p style="direction: rtl"><strong>وصف الخدمة :</strong></p><p style="direction: rtl">هي خدمة مقدمة للخطوط اللاحقة و المسبقة الدفع تمكن المشترك من إجراء حجب لـ 5&nbsp; أرقام خليوية أو أرضية&nbsp; لا يرغب باستقبال مكالمات واردة منها</p><table style="direction: rtl"><tbody><tr><td width="630"><strong> المعلومات الأســاسية المطلوب تزويدها للمشترك في حال زيارته للمركز + قسم الاتصالات :</strong></td></tr><tr><td width="630"><p><strong> خدمة بدون إزعاج </strong><strong>في حال الاستفسار عن الخدمة :</strong></p><ul><li>&nbsp;تمكن المشترك من إجراء حجب لـ 5&nbsp; أرقام خليوية أو أرضية لا يرغب باستقبال مكالمات منها</li><li>لا يمكن حجب الرسائل النصية</li><li>كلفة الخدمـــة.</li><li style="direction: rtl">الاشتراك عن طريق طلب الرمز المجاني &nbsp;#363*</li></ul><p><strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></p></td></tr></tbody></table><p style="direction: rtl"><strong>تكلفة الاشتراك :</strong></p><p style="direction: rtl"><strong>350 ل.س</strong> الاشتراك الشهري للخدمة غير مجزأ</p><p style="direction: rtl"><strong>طريقة الاشتراك :</strong></p><p style="direction: rtl">يتم الاشتراك عن طريق طلب الرمز المجاني &nbsp;#363*</p><p style="direction: rtl">ستظهر العبارة التالية :&nbsp; طلبك قيد المعالجة</p><p style="direction: rtl">ثم تصل الرسالة التالية : أن طلبك قيد المعالجة سيتم إرسال تأكيد التفعيل</p><p style="direction: rtl"><span style="font-family: 'Arabic Transparent';font-size: large;color: #3366ff"> </span></p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent'">&nbsp;</span><span style="font-family: 'Arabic Transparent';font-size: large"><b>معلومات إضافية :</b></span></p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent'">1.الأرقام الخليوية التي يمكن حجبها هي أرقام&nbsp; ( <span lang="en-us">MTN &amp; Syriatel )&nbsp; </span>لاحقة و مسبقة دفع</span></p><p dir="rtl" align="right">2. عند إضافة رقم أرضي إلى القائمة يجب أن يتم إدخال رمز المحافظة ومن ثم الرقم الأرضي. مثال: 0116111111، كما يمكن أن يتم حجب رقم أرضي مؤلف من 6 خانات.</p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent'">3.ليس من الضروري إضافة الأرقام بوقت واحد أي من الممكن إضافة الأرقام الخمسة بأوقات متفرقة</span></p><p dir="rtl" align="right">4. القائمة ستتضمن 5 أرقام فقط سواءً كانت خليوية أو أرضية.</p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent'">5.عند اتصال رقم من ضمن قائمة الحجب سيفصل الاتصال مباشرة دون سماع أي عبارة </span></p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent'">6.يمكن للمشترك في حال رغبته إجراء تعديل للأرقام أن يتم حذف الرقم و من ثم إعادة إدخال رقم جديد </span></p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent'">7.لن تتأثر القائمة في حال لم يقم المشترك بإجراء أي تعديل لها </span></p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent'">8.لدى محاولة إضافة الرقم السادس إلى القائمة ستظهر العبارة التالية :</span></p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent'">&nbsp; ” عذرا، لا يمكن إضافة أرقام جديدة. يرجى حذف أحد الأرقام الحالية ” </span></p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent'">Dear subscriber,you cannot add any new numbers please delete some numbers to do so” </span></p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent'">9.لدى إجراء تحويل للمكالمات الواردة بأي حالة من حالات التحويل <span lang="ar-sy">الى رقم أخر أو إلى السوبر كليب أو البريد الصوتي و قام رقم من ضمن أرقام قائمة الحجب بالاتصال لن يتم التحويل اي سيستمر الحجب&nbsp; </span> </span></p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent'"><span lang="ar-sy">10.</span>يمكن أن تتضمن القائمة أرقام مفصولة عن الخدمة </span></p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent'"><span lang="ar-sy">11.</span>لا يمكن للخط المتوقف بالطرق التالية الاشتراك بالخدمة :</span></p><p dir="rtl" align="right"><span lang="en-us"><span style="font-family: 'Arabic Transparent'"> Bar</span></span><span style="font-family: 'Arabic Transparent'"> except , bar out , bar in &amp; out , suspension on demand , suspend </span></p><p dir="rtl" align="right"><span lang="ar-sy"><span style="font-family: 'Arabic Transparent'"> وفي حال الخط&nbsp; </span></span><span lang="en-us"><span style="font-family: 'Arabic Transparent'"> Bar</span></span><span style="font-family: 'Arabic Transparent'"> except</span><span lang="ar-sy"><span style="font-family: 'Arabic Transparent'"> ستصل للمشترك الرسالة التالية : </span></span></p><p dir="rtl" align="right"><span lang="ar-sy"><span style="font-family: 'Arabic Transparent'">&nbsp;” عزيزي المشترك لا يمكنك استخدام هذه الخدمة حالياً ” </span></span></p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent'">12. لا يمكن حجب أرقام الشركة 0944222111, 0944222222 و ستظهر للمشترك الرسالة التالية :</span></p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent'">” عذرا، هذا الرقم محجوب عن هذه الخدمة &nbsp;“</span></p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent'"> 13. <span lang="ar-sy">لدى طلب معرفة قائمة الأرقام : طلبك قيد المعالجة سيتم إرسال القائمة عبر رسالة </span> </span></p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent'"><span lang="ar-sy"> تصل الرسالة تتضمن الأرقام : 009639</span>xxxxxxxx, <span lang="ar-sy">009639</span>xxxxxxxx<span lang="ar-sy">………….</span></span></p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent'">14. <span lang="ar-sy">يمكن طلب الارقام بأي وقت عبر القائمة و ستصل رسالة بذلك&nbsp; </span></span></p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent'">1<span lang="ar-sy">5</span>.في حال كان لدى المشترك اشتراك بخدمة حجب المكالمات و قام باجراء حجب للمكالمات الواردة سيتم تطبيق الحجب على جميع الارقام المتصلة به سواء كانت ضمن القائمة ام لا</span></p><p dir="rtl" align="right"><span lang="ar-sy"><span style="font-family: 'Arabic Transparent'"> 16. في حال اتصل رقم لديه خدمة حجب الرقم بالمشترك الذي لديه اشتراك بالخدمة و كان رقم المتصل ضمن قائمة الحجب لن يتم استقبال المكالمة كون الرقم موجود ضمن القائمة حتى في حال كان المشترك قد قام بإخفاء رقمه عبر خدمة حجب الرقم لن يتم استقبال المكالمة ( خدمة حجب الرقم متوقفة )</span></span></p><p dir="rtl" align="right"><span lang="ar-sy"><span style="font-family: 'Arabic Transparent'"> 17. </span></span><span style="font-family: 'Arabic Transparent'">لايتم تنفيذ طلب الاشتراك او الغاء الاشتراك بالخدمة عبر الـ <span lang="en-us">CX </span>و انما عبر القائمة *363# حصراً .</span></p><p dir="rtl" align="right"><span lang="ar-sy">18. الخدمة مخصصة فقط لحجب المكالمات الخليوية الواردة أي لن تؤثر على الرسائل النصية في حال كان الرقم المحجوب رقم خليوي.</span></p><p dir="rtl" align="right">19. الوقت الفعلي لتفعيل الخدمة هو من 2 إلى 6 ساعات</p><p dir="rtl" align="right">20.لا <span lang="ar-sy">يمكن استخدام الخدمة بالتجوال </span></p><p dir="rtl" align="right">21. في حال كان الخط مقطوع بطريقة <span lang="en-us">&nbsp;Suspend</span><span lang="ar-sy"> او بحالة الايقاف المؤقت</span><span lang="en-us">&nbsp;</span>و تم إعادة تفعيل الخط لا تعود الخدمة للعمل <span lang="ar-sy">و على المشترك اعادة الاشتراك بالخدمة </span></p><p dir="rtl" align="right"><span lang="ar-sy">22. لدى اجراء تغيير للرقم ستبقى الخدمة و لكن قائمة الارقام سيتم حذفها&nbsp;</span></p><p dir="rtl" align="right"><span style="color: #ff0000"> <span lang="ar-sy"><span style="text-decoration: underline"><b>ملاحظة </b></span> :&nbsp;&nbsp; لدى اجراء تغيير للرقم&nbsp; يجب على موظف مركز الخدمة ايقاف الخدمة من على برنامج الـ </span> <span lang="en-us">CX </span> <span lang="ar-sy">كون المشترك لن يستفيد منها ( يتم العمل على من قبل القسم المعني على ان تنتقل قائمة الأرقام ضمن قائمة الحجب الى الرقم الجديد لذا يرجى التقييد بايقاف الخدمة من قبلكم حتى إعلامكم بجاهزية هذه النقطة )</span></span></p><p dir="rtl" align="right"><span lang="ar-sy">23. في حال تم اجراء تحويل للخط من لاحق الى مسبق دفع و بالعكس سيتم إيقاف الخدمة و على المشترك إعادة الاشتراك بها في حال رغبته بذلك&nbsp;</span></p><p style="direction: rtl"><strong>الرسائل الخاصة بالخدمة :</strong></p><table style="height: 343px" width="734"><tbody><tr><td width="289">&nbsp;الحالة</td><td width="438">نص الرسالة</td></tr><tr><td width="289">تم تفعيل خدمة بدون إزعاج على خطك</td><td width="438">رسالة تأكيد التفعيل</td></tr><tr><td width="289">تم إلغاء خدمة بدون إزعاج على خطك</td><td width="438">رسالة تأكيد الالغاء</td></tr><tr><td width="289">عذرا هذه الخدمة غير متاحة على خطك</td><td width="438">عند الاستعلام عن القائمة دون ان يكون لدى المشترك اشتراك بالخدمة</td></tr><tr><td width="289">عزيزي المشترك ليس لديك رصيد كافي لتفعيل هذه الخدمة</td><td width="438">ليس لدى المشترك رصيد كافي للاشتراك بالخدمة</td></tr><tr><td>عذراً هذا الرقم موجود مسبقاً</td><td width="438">لدى إضافة رقم موجود ضمن القائمة مسبقاً</td></tr><tr><td width="289">&nbsp;تم إضافة الرقم بنجاح</td><td width="438">لدى إضافة رقم بنجاح</td></tr><tr><td width="289">عذراً لا يمكن إضافة أرقام جديدة يرجى حذف احد الأرقام الحالية</td><td width="438">لدى إضافة رقم سادس الى القائمة</td></tr><tr><td width="289">عذرا هذا الرقم غير موجود في القائمة</td><td width="438">لدى حذف رقم من أرقام القائمة غير موجود</td></tr><tr><td width="289">&nbsp;تم حذف الرقم بنجاح</td><td width="438">لدى حذف الرقم</td></tr><tr><td width="289">عزيزي المشترك لا يوجد أي رقم في قائمة عدم الازعاج</td><td width="438">لدى طلب معرفة ارقام القائمة و القائمة فارغة لا يوجد بها&nbsp; اي رقم</td></tr><tr><td width="289">عذراً ، يرجى الاشتراك بالخدمة مثل اضافة أو حذف رقم</td><td width="438">لدى اضافة رقم و المشترك غير مشترك بالخدمة</td></tr><tr><td width="289">إدخال خاطىْ يرجى المحاولة من جديد ابتداء من 09</td><td width="438">لدى تجربة إضافة&nbsp; رقم خاطئ أي تم إدخال الرقم&nbsp; بطريقة مختلفة عن xxxxxx 09</td></tr></tbody></table><p style="direction: rtl"><strong>INAPI </strong></p><p style="direction: rtl">تظهر الخدمة للأرقام المسبقة الدفع ضمن برنامج الـ INAPI كمايلي :</p><p style="direction: rtl"><strong>Special Features :</strong> call screening</p><p style="direction: rtl"></p><p dir="rtl" align="right"><span lang="ar-sy">و ضمن الـ </span>&nbsp;More details <span lang="ar-sy">تظهر قائمة الحجب ضمن الـ </span>White / Black list</p><p dir="rtl" align="right"></p><p dir="rtl" align="right"><span lang="ar-sy"><span style="font-family: 'Arabic Transparent'">&nbsp;الأرقام الخمسة التي تم حجبها&nbsp;</span></span></p><p dir="rtl" align="right"></p><p dir="rtl" align="right">تظهر الخدمة ضمن برنامج الـ <strong><span lang="en-us">CX</span></strong> كمايلي :</p><p dir="rtl" align="right"><span lang="en-us">Supplementary&nbsp;</span></p><p dir="rtl" align="right"></p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent';font-size: large"><b>إلغاء الخدمة :</b></span></p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent'">يتم إلغاء الاشتراك عبر الرمز #363* حيث ستصل رسالة لتأكيد الإلغاء</span></p><p dir="rtl" align="right"><span style="font-family: 'Arabic Transparent'">المدة اللازمة لإلغاء الخدمة من 2-6 ساعات</span></p>					</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		
+		
+		
+			</div><!-- .entry-content .clear -->
+</div>
+    `,
+
+    
+
+    // color of Prepaid :
+    // image: "linear-gradient(135deg, #673AB7, #7E57C2)"
+    // image: "linear-gradient(135deg, #ffcc00, #e6b800)"
+    // image: "linear-gradient(135deg, #ff9900, #e68a00)"
+    // image: "linear-gradient(135deg, #ffcc00, #cc9900)"
+    
+    // color of postpaid :
+    // image: "linear-gradient(135deg, #4527A0, #4527A0)"
+    // image: "linear-gradient(135deg, #ff0000, #cc0000)"
+    // image: "linear-gradient(135deg, #cc0000, #990000)"
+  
+    // color of services :
+    image: "linear-gradient(135deg, #C562AF, #B33791)"
+    // image: "linear-gradient(135deg, #C2185B, #E91E63)"
+    // image: "linear-gradient(135deg, #00678f, #004d6f)"
+    // image: "linear-gradient(135deg, #0088cc, #006699)"
+    // image: "linear-gradient(135deg, #0099cc, #0077aa)"
+
+};
