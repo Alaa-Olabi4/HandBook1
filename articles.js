@@ -12,10 +12,10 @@ const articles = {
     prepaid: prepaidArticles,
     postpaid: postpaidArticles,
     services: servicesArticles,
-    // prebundles: prebundlesArticles,
-    // postbundles:postbundlesArticles,
-    // prepostbundles: prepostbundlesArticles,
-    // adsl:adslArticles,
+    prebundles: prebundlesArticles,
+    postbundles:postbundlesArticles,
+    prepostbundles: prepostbundlesArticles,
+    adsl:adslArticles,
     cashmobile:cashmobileArticles,
 };
 
@@ -192,4 +192,5 @@ export default articles;
 //         }
 //     ]
 // };
+
 
