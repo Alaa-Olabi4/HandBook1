@@ -43,7 +43,7 @@ const articles = [
     // NationalRoaming,
     // TekramBundles,
     // transfer,
-    // changeSim,
+    changeSim,
     // esim,
     // conversionpre2post,
     // ChangeNumber,
@@ -52,3 +52,4 @@ const articles = [
 
 
 export default articles;
+
