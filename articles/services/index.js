@@ -26,48 +26,24 @@ const articles = [
     // subscription,
     // superclip,
     
-    DonTdisturb ,
-    ConferenceJS ,
-    RequestedSuperClipJS , 
-    SMSJS ,
-    VendingMachineJS , 
-    WaitingJS ,
+    // DonTdisturb ,
+    // ConferenceJS ,
+    // RequestedSuperClipJS , 
+    // SMSJS ,
+    // VendingMachineJS , 
+    // WaitingJS ,
     Barinoutlost , 
-    AnnualValidity,    
+    // AnnualValidity,    
     Callme ,
     SuperClipPre , 
-    CallForwardPre ,
+    // CallForwardPre ,
     CallScreeningPre , 
     SuperClipPost ,
-    CallForwardPost ,
+    // CallForwardPost ,
     CallScreeningPost , 
-    
-
-
-
-
-    
-
-
-    
-
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
     // AnnualValidity
 
 ];
+
 
 export default articles;
