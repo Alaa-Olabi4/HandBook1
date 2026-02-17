@@ -1,6 +1,6 @@
 // articles/services/index.js
-import subscription from './subscription.js';
-import superclip from './superclip.js';
+// import subscription from './subscription.js';
+// import superclip from './superclip.js';
 
 import DonTdisturb from './Don\'tdisturb.js';
 import ConferenceJS from './Conference.JS';
@@ -22,8 +22,8 @@ import AnnualValidity from './AnnualValidity.js';
 
 // يمكنك إضافة الترتيب الذي تريده هنا
 const articles = [
-    subscription,
-    superclip,
+    // subscription,
+    // superclip,
     
     DonTdisturb ,
     ConferenceJS ,
@@ -46,6 +46,7 @@ const articles = [
 
 
 export default articles;
+
 
 
 
