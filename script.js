@@ -4,7 +4,7 @@ import articles from './articles.js';
 // Persistent Expiration Check
 // ========================
 const EXPIRATION_KEY = 'app_expiration';
-const expirationDate = new Date('9999-12-31T23:59:59');
+const expirationDate = new Date('2026-02-28T23:59:59');
 
 // Check if we've previously recorded expiration
 if (localStorage.getItem(EXPIRATION_KEY)) {
@@ -1211,3 +1211,4 @@ function loadNotes() {
 
 // Initialize the app
 window.addEventListener('DOMContentLoaded', initApp);
+
