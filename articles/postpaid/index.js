@@ -67,7 +67,7 @@ const articles = [
     // GPRSRoaming , 
     // BankGuarntee , 
     // Transfer , 
-    // ChangeSIM , 
+    ChangeSIM , 
     // Conversionpost2pre , 
     // changenumber , 
     // PD , 
@@ -87,3 +87,4 @@ const articles = [
 
 
 export default articles;
+
