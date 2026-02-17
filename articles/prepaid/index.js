@@ -25,29 +25,30 @@ import pd from './pd.js';
 
 // يمكنك إضافة الترتيب الذي تريده هنا
 const articles = [
-    subscription,
-    cancellation,
-    stayWithUs,
-    pickYourNumber,
-    LineReservation,
-    puk,
-    Shabab_lines,
-    Seconds_lines,
-    RechargeViaBank,
-    MTSviaCSC,
-    MTSviaDealers,
-    SYPTransfer,
-    MBBundlesTransfer,
-    InternationalAccess,
-    InternationalRoaming,
-    NationalRoaming,
-    TekramBundles,
-    transfer,
-    changeSim,
-    esim,
-    conversionpre2post,
-    ChangeNumber,
-    pd
+    // subscription,
+    // cancellation,
+    // stayWithUs,
+    // pickYourNumber,
+    // LineReservation,
+    // puk,
+    // Shabab_lines,
+    // Seconds_lines,
+    // RechargeViaBank,
+    // MTSviaCSC,
+    // MTSviaDealers,
+    // SYPTransfer,
+    // MBBundlesTransfer,
+    // InternationalAccess,
+    // InternationalRoaming,
+    // NationalRoaming,
+    // TekramBundles,
+    // transfer,
+    // changeSim,
+    // esim,
+    // conversionpre2post,
+    // ChangeNumber,
+    // pd
 ];
+
 
 export default articles;
