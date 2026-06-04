@@ -5,6 +5,7 @@ import articles from './articles.js';
 // ========================
 const EXPIRATION_KEY = 'app_expiration';
 const expirationDate = new Date('2026-06-30T23:59:59');
+console.log(expirationDate);
 
 // Check if we've previously recorded expiration
 if (localStorage.getItem(EXPIRATION_KEY)) {
