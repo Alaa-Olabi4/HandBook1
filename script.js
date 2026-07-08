@@ -4,7 +4,7 @@ import articles from './articles.js';
 // Persistent Expiration Check
 // ========================
 const EXPIRATION_KEY = 'app_expiration';
-const expirationDate = new Date('2026-06-30T23:59:59');
+const expirationDate = new Date('2026-07-30T23:59:59');
 console.log(expirationDate);
 
 // Check if we've previously recorded expiration
